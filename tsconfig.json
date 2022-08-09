@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+  
+      "target": "es6",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+      "module": "es6",                                /* Specify what module code is generated. */
+      "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+      "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+      "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+      "noImplicitAny": true,
+      "strictPropertyInitialization": true,
+      /* Type Checking */
+      "strict": true,                                      /* Enable all strict type-checking options. */                      /* Skip type checking .d.ts files that are included with TypeScript. */
+      "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    }
+  }
+  

@@ -1,17 +1,17 @@
-const pokemonName = document.querySelector('.pokemon_name');
-const pokemonNumber = document.querySelector('.pokemon_number'); 
-const pokemonSprite = document.querySelector('.pokemon_image');
+const pokemonName = document.querySelector('.pokemon_name') as HTMLHeadingElement;
+const pokemonNumber = document.querySelector('.pokemon_number') as HTMLHeadingElement; 
+const pokemonSprite = document.querySelector('.pokemon_image') as HTMLImageElement;
 
-const form = document.querySelector('.form');
-const input = document.querySelector('.input_search');
+const form = document.querySelector('.form') as HTMLFormElement;
+const input = document.querySelector('.input_search') as HTMLInputElement;
 
-const btnPrev = document.querySelector('.btn-prev');
-const btnNext = document.querySelector('.btn-next');
+const btnPrev = document.querySelector('.btn-prev') as HTMLButtonElement;
+const btnNext = document.querySelector('.btn-next') as HTMLButtonElement;
 
 let searchPokemon = 1;
 
 
-const fetchPokemon = async (pokemon) => {
+const fetchPokemon = async (pokemon: string | number) => {
     const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);  
 
     if(APIResponse.status === 200){
@@ -22,7 +22,7 @@ const fetchPokemon = async (pokemon) => {
 
 }
 
-const renderPokemon = async (pokemon) => {
+const renderPokemon = async (pokemon: string | number) => {
 
     const data = await fetchPokemon(pokemon);
 

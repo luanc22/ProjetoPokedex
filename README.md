@@ -1,4 +1,4 @@
-# ProjetoPokedex
+# Projeto Pokédex
 Pokédex criada em HTML, CSS e JavaScript utilizando PokéAPI!
 
 Na segunda branch, temos o projeto refatorado em Typescript ao invés de Javascript!

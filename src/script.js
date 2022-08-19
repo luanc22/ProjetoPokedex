@@ -11,7 +11,7 @@ const btnNext = document.querySelector('.btn-next');
 let searchPokemon = 1;
 
 var audio = document.getElementById("bgmusic");
-audio.volume = 0.1;
+audio.volume = 0.05;
 
 const fetchPokemon = async (pokemon) => {
     const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);  

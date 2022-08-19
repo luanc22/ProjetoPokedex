@@ -3,7 +3,11 @@ Pokédex criada em HTML, CSS e JavaScript utilizando PokéAPI!
 
 Na segunda branch, temos o projeto refatorado em Typescript ao invés de Javascript!
 
-Fique a vontade para clonar e testar qualquer uma das versões com a extensão LiveServer no Visual Studio Code!
+Fique a vontade para testar e me dar feedbacks!
+
+https://luanc22.github.io/ProjetoPokedex/
+
+## Esse é um projeto em andamento, pretendo melhorar a pokédex conforme meus estudos forem avançando.
 
 Preview: 
 

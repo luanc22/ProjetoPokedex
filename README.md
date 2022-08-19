@@ -7,7 +7,7 @@ Fique a vontade para testar e me dar feedbacks!
 
 https://luanc22.github.io/ProjetoPokedex/
 
-## Esse é um projeto em andamento, pretendo melhorar a pokédex conforme meus estudos forem avançando.
+### Esse é um projeto em andamento, pretendo melhorar a pokédex conforme meus estudos forem avançando.
 
 Preview: 
 
